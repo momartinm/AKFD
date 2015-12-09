@@ -1,0 +1,1080 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="79">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df name="search" root=".">
+      <df name="ext">
+        <df name="boost">
+          <df name="config">
+            <df name="abi">
+              <in>borland_prefix.hpp</in>
+              <in>borland_suffix.hpp</in>
+              <in>msvc_prefix.hpp</in>
+              <in>msvc_suffix.hpp</in>
+            </df>
+            <df name="compiler">
+              <in>borland.hpp</in>
+              <in>clang.hpp</in>
+              <in>codegear.hpp</in>
+              <in>comeau.hpp</in>
+              <in>common_edg.hpp</in>
+              <in>compaq_cxx.hpp</in>
+              <in>digitalmars.hpp</in>
+              <in>gcc.hpp</in>
+              <in>gcc_xml.hpp</in>
+              <in>greenhills.hpp</in>
+              <in>hp_acc.hpp</in>
+              <in>intel.hpp</in>
+              <in>kai.hpp</in>
+              <in>metrowerks.hpp</in>
+              <in>mpw.hpp</in>
+              <in>nvcc.hpp</in>
+              <in>pgi.hpp</in>
+              <in>sgi_mipspro.hpp</in>
+              <in>sunpro_cc.hpp</in>
+              <in>vacpp.hpp</in>
+              <in>visualc.hpp</in>
+            </df>
+            <df name="no_tr1">
+              <in>cmath.hpp</in>
+              <in>complex.hpp</in>
+              <in>functional.hpp</in>
+              <in>memory.hpp</in>
+              <in>utility.hpp</in>
+            </df>
+            <df name="platform">
+              <in>aix.hpp</in>
+              <in>amigaos.hpp</in>
+              <in>beos.hpp</in>
+              <in>bsd.hpp</in>
+              <in>cygwin.hpp</in>
+              <in>hpux.hpp</in>
+              <in>irix.hpp</in>
+              <in>linux.hpp</in>
+              <in>macos.hpp</in>
+              <in>qnxnto.hpp</in>
+              <in>solaris.hpp</in>
+              <in>symbian.hpp</in>
+              <in>vms.hpp</in>
+              <in>vxworks.hpp</in>
+              <in>win32.hpp</in>
+            </df>
+            <df name="stdlib">
+              <in>dinkumware.hpp</in>
+              <in>libcomo.hpp</in>
+              <in>libstdcpp3.hpp</in>
+              <in>modena.hpp</in>
+              <in>msl.hpp</in>
+              <in>roguewave.hpp</in>
+              <in>sgi.hpp</in>
+              <in>stlport.hpp</in>
+              <in>vacpp.hpp</in>
+            </df>
+            <in>abi_prefix.hpp</in>
+            <in>abi_suffix.hpp</in>
+            <in>auto_link.hpp</in>
+            <in>posix_features.hpp</in>
+            <in>requires_threads.hpp</in>
+            <in>select_compiler_config.hpp</in>
+            <in>select_platform_config.hpp</in>
+            <in>select_stdlib_config.hpp</in>
+            <in>suffix.hpp</in>
+            <in>user.hpp</in>
+            <in>warning_disable.hpp</in>
+          </df>
+          <df name="detail">
+            <in>workaround.hpp</in>
+          </df>
+          <df name="exception">
+            <df name="detail">
+              <in>attribute_noreturn.hpp</in>
+            </df>
+            <in>exception.hpp</in>
+          </df>
+          <df name="mpl">
+            <df name="aux_">
+              <df name="config">
+                <in>adl.hpp</in>
+                <in>arrays.hpp</in>
+                <in>ctps.hpp</in>
+                <in>gcc.hpp</in>
+                <in>intel.hpp</in>
+                <in>lambda.hpp</in>
+                <in>msvc.hpp</in>
+                <in>nttp.hpp</in>
+                <in>overload_resolution.hpp</in>
+                <in>preprocessor.hpp</in>
+                <in>static_constant.hpp</in>
+                <in>ttp.hpp</in>
+                <in>workaround.hpp</in>
+              </df>
+              <df name="preprocessor">
+                <in>enum.hpp</in>
+                <in>params.hpp</in>
+              </df>
+              <in>adl_barrier.hpp</in>
+              <in>integral_wrapper.hpp</in>
+              <in>lambda_support.hpp</in>
+              <in>na_fwd.hpp</in>
+              <in>nttp_decl.hpp</in>
+              <in>static_cast.hpp</in>
+              <in>template_arity_fwd.hpp</in>
+              <in>yes_no.hpp</in>
+            </df>
+            <in>bool.hpp</in>
+            <in>bool_fwd.hpp</in>
+            <in>int.hpp</in>
+            <in>int_fwd.hpp</in>
+            <in>integral_c.hpp</in>
+            <in>integral_c_fwd.hpp</in>
+            <in>integral_c_tag.hpp</in>
+          </df>
+          <df name="preprocessor">
+            <df name="arithmetic">
+              <in>inc.hpp</in>
+            </df>
+            <df name="config">
+              <in>config.hpp</in>
+            </df>
+            <df name="control">
+              <in>expr_iif.hpp</in>
+              <in>if.hpp</in>
+              <in>iif.hpp</in>
+            </df>
+            <df name="debug">
+              <in>error.hpp</in>
+            </df>
+            <df name="detail">
+              <df name="dmc">
+                <in>auto_rec.hpp</in>
+              </df>
+              <in>auto_rec.hpp</in>
+              <in>check.hpp</in>
+              <in>is_binary.hpp</in>
+            </df>
+            <df name="facilities">
+              <in>empty.hpp</in>
+            </df>
+            <df name="list">
+              <in>adt.hpp</in>
+              <in>for_each_i.hpp</in>
+            </df>
+            <df name="logical">
+              <in>bool.hpp</in>
+              <in>compl.hpp</in>
+            </df>
+            <df name="punctuation">
+              <in>comma.hpp</in>
+              <in>comma_if.hpp</in>
+            </df>
+            <df name="repetition">
+              <df name="detail">
+                <df name="dmc">
+                  <in>for.hpp</in>
+                </df>
+                <df name="edg">
+                  <in>for.hpp</in>
+                </df>
+                <df name="msvc">
+                  <in>for.hpp</in>
+                </df>
+                <in>for.hpp</in>
+              </df>
+              <in>for.hpp</in>
+              <in>repeat.hpp</in>
+            </df>
+            <df name="tuple">
+              <in>eat.hpp</in>
+              <in>elem.hpp</in>
+              <in>rem.hpp</in>
+              <in>to_list.hpp</in>
+            </df>
+            <in>cat.hpp</in>
+            <in>comma_if.hpp</in>
+            <in>inc.hpp</in>
+            <in>repeat.hpp</in>
+          </df>
+          <df name="type_traits">
+            <df name="detail">
+              <in>bool_trait_def.hpp</in>
+              <in>bool_trait_undef.hpp</in>
+              <in>ice_and.hpp</in>
+              <in>ice_eq.hpp</in>
+              <in>ice_not.hpp</in>
+              <in>ice_or.hpp</in>
+              <in>template_arity_spec.hpp</in>
+              <in>type_trait_def.hpp</in>
+              <in>type_trait_undef.hpp</in>
+              <in>wrap.hpp</in>
+              <in>yes_no_type.hpp</in>
+            </df>
+            <df name="msvc">
+              <in>remove_reference.hpp</in>
+              <in>typeof.hpp</in>
+            </df>
+            <in>broken_compiler_spec.hpp</in>
+            <in>config.hpp</in>
+            <in>ice.hpp</in>
+            <in>integral_constant.hpp</in>
+            <in>is_lvalue_reference.hpp</in>
+            <in>is_reference.hpp</in>
+            <in>is_rvalue_reference.hpp</in>
+            <in>remove_reference.hpp</in>
+          </df>
+          <in>any.hpp</in>
+          <in>config.hpp</in>
+          <in>current_function.hpp</in>
+          <in>non_type.hpp</in>
+          <in>static_assert.hpp</in>
+          <in>throw_exception.hpp</in>
+          <in>type.hpp</in>
+          <in>version.hpp</in>
+        </df>
+        <in>tree.hh</in>
+        <in>tree_util.hh</in>
+      </df>
+      <df name="landmarks">
+        <in>exploration.cc</in>
+        <in>exploration.h</in>
+        <in>h_m_landmarks.cc</in>
+        <in>h_m_landmarks.h</in>
+        <in>lama_ff_synergy.cc</in>
+        <in>lama_ff_synergy.h</in>
+        <in>landmark_cost_assignment.cc</in>
+        <in>landmark_cost_assignment.h</in>
+        <in>landmark_count_heuristic.cc</in>
+        <in>landmark_count_heuristic.h</in>
+        <in>landmark_factory.cc</in>
+        <in>landmark_factory.h</in>
+        <in>landmark_factory_rpg_exhaust.cc</in>
+        <in>landmark_factory_rpg_exhaust.h</in>
+        <in>landmark_factory_rpg_sasp.cc</in>
+        <in>landmark_factory_rpg_sasp.h</in>
+        <in>landmark_factory_zhu_givan.cc</in>
+        <in>landmark_factory_zhu_givan.h</in>
+        <in>landmark_graph.cc</in>
+        <in>landmark_graph.h</in>
+        <in>landmark_graph_merged.cc</in>
+        <in>landmark_graph_merged.h</in>
+        <in>landmark_status_manager.cc</in>
+        <in>landmark_status_manager.h</in>
+        <in>landmark_types.h</in>
+        <in>util.cc</in>
+        <in>util.h</in>
+      </df>
+      <df name="learning">
+        <in>AODE.cc</in>
+        <in>AODE.h</in>
+        <in>PDB_state_space_sample.cc</in>
+        <in>PDB_state_space_sample.h</in>
+        <in>classifier.cc</in>
+        <in>classifier.h</in>
+        <in>composite_feature_extractor.cc</in>
+        <in>composite_feature_extractor.h</in>
+        <in>feature_extractor.cc</in>
+        <in>feature_extractor.h</in>
+        <in>maximum_heuristic.cc</in>
+        <in>maximum_heuristic.h</in>
+        <in>naive_bayes_classifier.cc</in>
+        <in>naive_bayes_classifier.h</in>
+        <in>probe_state_space_sample.cc</in>
+        <in>probe_state_space_sample.h</in>
+        <in>selective_max_heuristic.cc</in>
+        <in>selective_max_heuristic.h</in>
+        <in>state_space_sample.cc</in>
+        <in>state_space_sample.h</in>
+        <in>state_vars_feature_extractor.cc</in>
+        <in>state_vars_feature_extractor.h</in>
+      </df>
+      <df name="lp">
+      </df>
+      <df name="merge_and_shrink">
+        <in>abstraction.cc</in>
+        <in>abstraction.h</in>
+        <in>label_reducer.cc</in>
+        <in>label_reducer.h</in>
+        <in>merge_and_shrink_heuristic.cc</in>
+        <in>merge_and_shrink_heuristic.h</in>
+        <in>shrink_bisimulation.cc</in>
+        <in>shrink_bisimulation.h</in>
+        <in>shrink_bucket_based.cc</in>
+        <in>shrink_bucket_based.h</in>
+        <in>shrink_fh.cc</in>
+        <in>shrink_fh.h</in>
+        <in>shrink_random.cc</in>
+        <in>shrink_random.h</in>
+        <in>shrink_strategy.cc</in>
+        <in>shrink_strategy.h</in>
+        <in>variable_order_finder.cc</in>
+        <in>variable_order_finder.h</in>
+      </df>
+      <df name="open_lists">
+        <in>alternation_open_list.cc</in>
+        <in>alternation_open_list.h</in>
+        <in>open_list.h</in>
+        <in>open_list_buckets.cc</in>
+        <in>open_list_buckets.h</in>
+        <in>pareto_open_list.cc</in>
+        <in>pareto_open_list.h</in>
+        <in>standard_scalar_open_list.cc</in>
+        <in>standard_scalar_open_list.h</in>
+        <in>tiebreaking_open_list.cc</in>
+        <in>tiebreaking_open_list.h</in>
+      </df>
+      <df name="pdbs">
+        <in>canonical_pdbs_heuristic.cc</in>
+        <in>canonical_pdbs_heuristic.h</in>
+        <in>dominance_pruner.cc</in>
+        <in>dominance_pruner.h</in>
+        <in>match_tree.cc</in>
+        <in>match_tree.h</in>
+        <in>max_cliques.cc</in>
+        <in>max_cliques.h</in>
+        <in>pattern_generation_edelkamp.cc</in>
+        <in>pattern_generation_edelkamp.h</in>
+        <in>pattern_generation_haslum.cc</in>
+        <in>pattern_generation_haslum.h</in>
+        <in>pdb_heuristic.cc</in>
+        <in>pdb_heuristic.h</in>
+        <in>util.cc</in>
+        <in>util.h</in>
+        <in>zero_one_pdbs_heuristic.cc</in>
+        <in>zero_one_pdbs_heuristic.h</in>
+      </df>
+      <in>Abstraction.cc</in>
+      <in>abstraction.cc</in>
+      <in>abstraction.h</in>
+      <in>additive_heuristic.cc</in>
+      <in>additive_heuristic.h</in>
+      <in>axioms.cc</in>
+      <in>axioms.h</in>
+      <in>blind_search_heuristic.cc</in>
+      <in>blind_search_heuristic.h</in>
+      <in>causal_graph.cc</in>
+      <in>causal_graph.h</in>
+      <in>cea_heuristic.cc</in>
+      <in>cea_heuristic.h</in>
+      <in>cg_cache.cc</in>
+      <in>cg_cache.h</in>
+      <in>cg_heuristic.cc</in>
+      <in>cg_heuristic.h</in>
+      <in>combining_evaluator.cc</in>
+      <in>combining_evaluator.h</in>
+      <in>doc.h</in>
+      <in>domain_transition_graph.cc</in>
+      <in>domain_transition_graph.h</in>
+      <in>eager_search.cc</in>
+      <in>eager_search.h</in>
+      <in>enforced_hill_climbing_search.cc</in>
+      <in>enforced_hill_climbing_search.h</in>
+      <in>evaluator.h</in>
+      <in>exact_timer.cc</in>
+      <in>exact_timer.h</in>
+      <in>ff_heuristic.cc</in>
+      <in>ff_heuristic.h</in>
+      <in>g_evaluator.cc</in>
+      <in>g_evaluator.h</in>
+      <in>globals.cc</in>
+      <in>globals.h</in>
+      <in>goal_count_heuristic.cc</in>
+      <in>goal_count_heuristic.h</in>
+      <in>heuristic.cc</in>
+      <in>heuristic.h</in>
+      <in>hm_heuristic.cc</in>
+      <in>hm_heuristic.h</in>
+      <in>ipc_max_heuristic.cc</in>
+      <in>ipc_max_heuristic.h</in>
+      <in>iterated_search.cc</in>
+      <in>iterated_search.h</in>
+      <in>lazy_search.cc</in>
+      <in>lazy_search.h</in>
+      <in>legacy_causal_graph.cc</in>
+      <in>legacy_causal_graph.h</in>
+      <in>lm_cut_heuristic.cc</in>
+      <in>lm_cut_heuristic.h</in>
+      <in>max_evaluator.cc</in>
+      <in>max_evaluator.h</in>
+      <in>max_heuristic.cc</in>
+      <in>max_heuristic.h</in>
+      <in>operator.cc</in>
+      <in>operator.h</in>
+      <in>operator_cost.cc</in>
+      <in>operator_cost.h</in>
+      <in>option_parser.cc</in>
+      <in>option_parser.h</in>
+      <in>option_parser_util.h</in>
+      <in>planner.cc</in>
+      <in>plugin.h</in>
+      <in>pref_evaluator.cc</in>
+      <in>pref_evaluator.h</in>
+      <in>priority_queue.h</in>
+      <in>relaxation_heuristic.cc</in>
+      <in>relaxation_heuristic.h</in>
+      <in>rng.cc</in>
+      <in>rng.h</in>
+      <in>scalar_evaluator.h</in>
+      <in>search_engine.cc</in>
+      <in>search_engine.h</in>
+      <in>search_node_info.cc</in>
+      <in>search_node_info.h</in>
+      <in>search_progress.cc</in>
+      <in>search_progress.h</in>
+      <in>search_space.cc</in>
+      <in>search_space.h</in>
+      <in>state.cc</in>
+      <in>state.h</in>
+      <in>state_proxy.cc</in>
+      <in>state_proxy.h</in>
+      <in>state_var_t.h</in>
+      <in>successor_generator.cc</in>
+      <in>successor_generator.h</in>
+      <in>sum_evaluator.cc</in>
+      <in>sum_evaluator.h</in>
+      <in>timer.cc</in>
+      <in>timer.h</in>
+      <in>utilities.cc</in>
+      <in>utilities.h</in>
+      <in>value.cc</in>
+      <in>value.h</in>
+      <in>weighted_evaluator.cc</in>
+      <in>weighted_evaluator.h</in>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath></executablePath>
+          <ccTool>
+            <incDir>
+              <pElem>/usr/include/c++/4.5/i686-linux-gnu</pElem>
+              <pElem>ext</pElem>
+            </incDir>
+            <preprocessorList>
+              <Elem>NDEBUG</Elem>
+              <Elem>STATE_VAR_BYTES=1</Elem>
+            </preprocessorList>
+          </ccTool>
+        </makeTool>
+      </makefileType>
+      <item path="additive_heuristic.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="additive_heuristic.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="blind_search_heuristic.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="blind_search_heuristic.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="cea_heuristic.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="cea_heuristic.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="cg_cache.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="cg_cache.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="cg_heuristic.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="cg_heuristic.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="doc.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/boost/config/abi/borland_prefix.hpp"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/boost/config/abi/borland_suffix.hpp"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/boost/config/abi/msvc_prefix.hpp" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/boost/config/abi/msvc_suffix.hpp" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/boost/config/abi_prefix.hpp" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/boost/config/abi_suffix.hpp" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/boost/config/auto_link.hpp" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/boost/config/compiler/borland.hpp"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/boost/config/compiler/clang.hpp" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/boost/config/compiler/codegear.hpp"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/boost/config/compiler/comeau.hpp" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/boost/config/compiler/common_edg.hpp"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/boost/config/compiler/compaq_cxx.hpp"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/boost/config/compiler/digitalmars.hpp"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/boost/config/compiler/gcc_xml.hpp"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/boost/config/compiler/greenhills.hpp"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/boost/config/compiler/hp_acc.hpp" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/boost/config/compiler/intel.hpp" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/boost/config/compiler/kai.hpp" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/boost/config/compiler/metrowerks.hpp"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/boost/config/compiler/mpw.hpp" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/boost/config/compiler/nvcc.hpp" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/boost/config/compiler/pgi.hpp" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/boost/config/compiler/sgi_mipspro.hpp"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/boost/config/compiler/sunpro_cc.hpp"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/boost/config/compiler/vacpp.hpp" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/boost/config/compiler/visualc.hpp"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/boost/config/no_tr1/cmath.hpp" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/boost/config/no_tr1/complex.hpp" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/boost/config/no_tr1/functional.hpp"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/boost/config/no_tr1/memory.hpp" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/boost/config/platform/aix.hpp" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/boost/config/platform/amigaos.hpp"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/boost/config/platform/beos.hpp" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/boost/config/platform/bsd.hpp" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/boost/config/platform/cygwin.hpp" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/boost/config/platform/hpux.hpp" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/boost/config/platform/irix.hpp" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/boost/config/platform/macos.hpp" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/boost/config/platform/qnxnto.hpp" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/boost/config/platform/solaris.hpp"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/boost/config/platform/symbian.hpp"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/boost/config/platform/vms.hpp" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/boost/config/platform/vxworks.hpp"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/boost/config/platform/win32.hpp" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/boost/config/requires_threads.hpp"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/boost/config/stdlib/dinkumware.hpp"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/boost/config/stdlib/libcomo.hpp" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/boost/config/stdlib/modena.hpp" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/boost/config/stdlib/msl.hpp" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/boost/config/stdlib/roguewave.hpp"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/boost/config/stdlib/sgi.hpp" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/boost/config/stdlib/stlport.hpp" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/boost/config/stdlib/vacpp.hpp" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/boost/config/warning_disable.hpp" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/boost/mpl/aux_/config/arrays.hpp" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/boost/mpl/aux_/na_fwd.hpp" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/boost/mpl/aux_/preprocessor/enum.hpp"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/boost/mpl/aux_/yes_no.hpp" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/boost/non_type.hpp" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/boost/preprocessor/control/expr_iif.hpp"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/boost/preprocessor/detail/check.hpp"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/boost/preprocessor/detail/dmc/auto_rec.hpp"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/boost/preprocessor/detail/is_binary.hpp"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/boost/preprocessor/list/adt.hpp" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/boost/preprocessor/list/for_each_i.hpp"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/boost/preprocessor/logical/compl.hpp"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/boost/preprocessor/repetition/detail/dmc/for.hpp"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/boost/preprocessor/repetition/detail/edg/for.hpp"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/boost/preprocessor/repetition/detail/for.hpp"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/boost/preprocessor/repetition/detail/msvc/for.hpp"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/boost/preprocessor/repetition/for.hpp"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/boost/preprocessor/tuple/elem.hpp"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/boost/preprocessor/tuple/rem.hpp" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/boost/preprocessor/tuple/to_list.hpp"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/boost/type.hpp" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/boost/type_traits/detail/wrap.hpp"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/boost/type_traits/msvc/remove_reference.hpp"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/boost/type_traits/msvc/typeof.hpp"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/boost/version.hpp" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ff_heuristic.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="ff_heuristic.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="goal_count_heuristic.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="goal_count_heuristic.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="hm_heuristic.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="hm_heuristic.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="landmarks/exploration.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="landmarks/exploration.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="landmarks/h_m_landmarks.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="landmarks/h_m_landmarks.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="landmarks/lama_ff_synergy.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="landmarks/lama_ff_synergy.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="landmarks/landmark_cost_assignment.cc"
+            ex="true"
+            tool="1"
+            flavor="0">
+      </item>
+      <item path="landmarks/landmark_cost_assignment.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="landmarks/landmark_count_heuristic.cc"
+            ex="true"
+            tool="1"
+            flavor="0">
+      </item>
+      <item path="landmarks/landmark_count_heuristic.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="landmarks/landmark_factory.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="landmarks/landmark_factory.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="landmarks/landmark_factory_rpg_exhaust.cc"
+            ex="true"
+            tool="1"
+            flavor="0">
+      </item>
+      <item path="landmarks/landmark_factory_rpg_exhaust.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="landmarks/landmark_factory_rpg_sasp.cc"
+            ex="true"
+            tool="1"
+            flavor="0">
+      </item>
+      <item path="landmarks/landmark_factory_rpg_sasp.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="landmarks/landmark_factory_zhu_givan.cc"
+            ex="true"
+            tool="1"
+            flavor="0">
+      </item>
+      <item path="landmarks/landmark_factory_zhu_givan.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="landmarks/landmark_graph.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="landmarks/landmark_graph.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="landmarks/landmark_graph_merged.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="landmarks/landmark_graph_merged.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="landmarks/landmark_status_manager.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="landmarks/landmark_status_manager.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="landmarks/landmark_types.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="landmarks/util.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="landmarks/util.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="learning/AODE.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="learning/AODE.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="learning/PDB_state_space_sample.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="learning/PDB_state_space_sample.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="learning/classifier.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="learning/classifier.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="learning/composite_feature_extractor.cc"
+            ex="true"
+            tool="1"
+            flavor="0">
+      </item>
+      <item path="learning/composite_feature_extractor.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="learning/feature_extractor.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="learning/feature_extractor.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="learning/maximum_heuristic.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="learning/maximum_heuristic.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="learning/naive_bayes_classifier.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="learning/naive_bayes_classifier.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="learning/probe_state_space_sample.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="learning/probe_state_space_sample.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="learning/selective_max_heuristic.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="learning/selective_max_heuristic.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="learning/state_space_sample.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="learning/state_space_sample.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="learning/state_vars_feature_extractor.cc"
+            ex="true"
+            tool="1"
+            flavor="0">
+      </item>
+      <item path="learning/state_vars_feature_extractor.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="legacy_causal_graph.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="lm_cut_heuristic.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="lm_cut_heuristic.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="max_evaluator.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="max_evaluator.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="max_heuristic.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="max_heuristic.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="merge_and_shrink/abstraction.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="merge_and_shrink/abstraction.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="merge_and_shrink/label_reducer.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="merge_and_shrink/label_reducer.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="merge_and_shrink/merge_and_shrink_heuristic.cc"
+            ex="true"
+            tool="1"
+            flavor="0">
+      </item>
+      <item path="merge_and_shrink/merge_and_shrink_heuristic.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="merge_and_shrink/shrink_bisimulation.cc"
+            ex="true"
+            tool="1"
+            flavor="0">
+      </item>
+      <item path="merge_and_shrink/shrink_bisimulation.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="merge_and_shrink/shrink_bucket_based.cc"
+            ex="true"
+            tool="1"
+            flavor="0">
+      </item>
+      <item path="merge_and_shrink/shrink_bucket_based.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="merge_and_shrink/shrink_fh.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="merge_and_shrink/shrink_fh.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="merge_and_shrink/shrink_random.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="merge_and_shrink/shrink_random.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="merge_and_shrink/shrink_strategy.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="merge_and_shrink/variable_order_finder.cc"
+            ex="true"
+            tool="1"
+            flavor="0">
+      </item>
+      <item path="merge_and_shrink/variable_order_finder.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="open_lists/alternation_open_list.cc" ex="false" tool="3" flavor="0">
+      </item>
+      <item path="open_lists/open_list_buckets.cc" ex="false" tool="3" flavor="0">
+      </item>
+      <item path="open_lists/pareto_open_list.cc" ex="false" tool="3" flavor="0">
+      </item>
+      <item path="open_lists/standard_scalar_open_list.cc"
+            ex="false"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="open_lists/tiebreaking_open_list.cc" ex="false" tool="3" flavor="0">
+      </item>
+      <item path="operator.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="operator_cost.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="option_parser.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="pdbs/canonical_pdbs_heuristic.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="pdbs/canonical_pdbs_heuristic.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="pdbs/dominance_pruner.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="pdbs/dominance_pruner.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="pdbs/match_tree.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="pdbs/match_tree.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="pdbs/max_cliques.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="pdbs/max_cliques.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="pdbs/pattern_generation_edelkamp.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="pdbs/pattern_generation_edelkamp.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="pdbs/pattern_generation_haslum.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="pdbs/pattern_generation_haslum.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="pdbs/pdb_heuristic.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="pdbs/pdb_heuristic.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="pdbs/util.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="pdbs/util.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="pdbs/zero_one_pdbs_heuristic.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="pdbs/zero_one_pdbs_heuristic.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="pref_evaluator.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="priority_queue.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="relaxation_heuristic.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="relaxation_heuristic.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="rng.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="search_engine.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="search_node_info.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="search_progress.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="search_space.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="state.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="state_proxy.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="successor_generator.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="sum_evaluator.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="timer.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="utilities.cc" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="weighted_evaluator.cc" ex="true" tool="1" flavor="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

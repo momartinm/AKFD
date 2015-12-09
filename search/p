@@ -1,0 +1,5 @@
+#! /bin/bash
+
+./translate/translate.py "$1" "$2"
+./preprocess/preprocess < output.sas
+./search/downward --search "lazy_greedy(ff(), preferred=ff())" < output
